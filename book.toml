@@ -1,4 +1,16 @@
 [book]
 title = "Workshop Handbook Template"
-authors = ["Bassem Kidwai"]
+authors = ["CompClub"]
 language = "en"
+description = "A CompClub template for workshop handbooks built with mdBook."
+
+[build]
+build-dir = "book"
+
+[output.html]
+default-theme = "workshop"
+site-url = "/Workshop-handbook-template/"
+git-repository-url = "https://github.com/davidjosesao/Workshop-handbook-template"
+additional-css = ["theme/custom.css"]
+
+[preprocessor.callouts]
