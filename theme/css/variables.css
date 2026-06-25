@@ -70,6 +70,7 @@
 
     --overlay-bg: rgba(33, 40, 48, 0.4);
 
+    /* Callout colours! */
     --blockquote-note-color: #74b9ff;
     --blockquote-tip-color: #09ca09;
     --blockquote-important-color: #d3abff;
