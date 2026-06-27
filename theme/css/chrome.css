@@ -61,7 +61,7 @@ html.sidebar-visible #mdbook-menu-bar {
     padding: 0 8px;
     z-index: 10;
     line-height: var(--menu-bar-height);
-    cursor: pointer;
+    cursor: var(--active-poco-cursor);
     transition: color 0.5s;
 }
 @media only screen and (max-width: 420px) {
@@ -108,7 +108,7 @@ html:not(.js) .left-buttons button {
     text-overflow: ellipsis;
 }
 .menu-title {
-    cursor: pointer;
+    cursor: var(--active-poco-cursor);
 }
 
 .menu-bar,
@@ -120,6 +120,7 @@ html:not(.js) .left-buttons button {
 .menu-bar .icon-button,
 .menu-bar a .fa-svg {
     color: var(--icons);
+    cursor: var(--active-poco-cursor);
 }
 
 .menu-bar .fa-svg:hover,
@@ -212,6 +213,11 @@ html:not(.js) .left-buttons button {
 
 a:hover > .hljs {
     text-decoration: underline;
+    cursor: var(--active-poco-cursor);
+}
+
+a:hover {
+    cursor: var(--active-poco-cursor);
 }
 
 pre {
@@ -226,7 +232,7 @@ pre > .buttons {
     padding: 2px 0px;
 
     color: var(--sidebar-fg);
-    cursor: pointer;
+    cursor: var(--active-poco-cursor);
     visibility: hidden;
     opacity: 0;
     transition: visibility 0.1s linear, opacity 0.1s linear;
@@ -241,7 +247,7 @@ pre > .buttons :hover {
     background-color: var(--theme-hover);
 }
 pre > .buttons button {
-    cursor: inherit;
+    cursor: var(--active-poco-cursor);
     margin: 0px 5px;
     padding: 2px 3px 0px 4px;
     font-size: 23px;
@@ -323,7 +329,7 @@ mark {
     margin-inline-end: -3px;
     background-color: var(--search-mark-bg);
     transition: background-color 300ms linear;
-    cursor: pointer;
+    cursor: var(--active-poco-cursor);
 }
 
 mark.fade-out {
@@ -705,7 +711,7 @@ html:not(.js) .sidebar-resize-handle {
     line-height: 25px;
     white-space: nowrap;
     text-align: start;
-    cursor: pointer;
+    cursor: var(--active-poco-cursor);
     color: inherit;
     background: inherit;
     font-size: inherit;

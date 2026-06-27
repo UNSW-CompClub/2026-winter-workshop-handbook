@@ -12,6 +12,10 @@
     --mono-font: "Source Code Pro", Consolas, "Ubuntu Mono", Menlo, "DejaVu Sans Mono", monospace, monospace;
     --code-font-size: 0.875em; /* please adjust the ace font size accordingly in editor.js */
     --searchbar-margin-block-start: 5px;
+
+    /* set the below variables to auto if you don't want the Poco cursor */
+    --plain-poco-cursor: url("../assets/plain-poco-xs.png"), auto;
+    --active-poco-cursor: url("../assets/active-poco-xs.png"), auto;
 }
 
 /* Themes */
