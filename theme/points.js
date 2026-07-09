@@ -147,7 +147,7 @@
     pillElement.style.transform  = 'scale(1.18)';
     setTimeout(() => { pillElement.style.transform = 'scale(1)'; }, 140);
   };
-
+ 
   // keep tabs in sync
   window.addEventListener('storage', e => {
     if (e.key === STORAGE_TOTAL || e.key === STORAGE_SEEN) {
