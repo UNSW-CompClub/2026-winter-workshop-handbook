@@ -57,25 +57,9 @@ It falls straight into the `else` section of the code block.
 
 ---
 
-## 2. Setup: Get the Tools
+## 2. Setup
 
-A **language model** such as chatgpt or claude is far too big to run locally on a personal laptop or computer.
-To use it, your program sends a message over the internet and
-waits for a reply. The tool for sending that message is a Python library called
-`requests`.
-
-### Install it
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install requests flask
-```
-
-On Windows, the middle line is `.venv\Scripts\activate` instead.
-
-Your terminal prompt should now start with `(.venv)`. That means it worked. (We're
-installing `flask` now too, as we will need it in Stage 2.)
+Open Vs code and familiarise yourself with the file structure
 
 ## 3. Your First Real AI Reply
 
