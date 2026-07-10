@@ -26,9 +26,6 @@ We build it in two stages:
 9. [Build the Server](#9-build-the-server)
 10. [Run It — Chat on Your Website](#10-run-it--chat-on-your-website)
 11. [Give Your Bot a Personality](#11-give-your-bot-a-personality)
-12. [Tuning the Model](#12-tuning-the-model)
-13. [Handle Errors Like a Grown-Up](#13-handle-errors-like-a-grown-up)
-14. [Open-Ended: Make It Yours](#14-open-ended-make-it-yours)
 
 ---
 
