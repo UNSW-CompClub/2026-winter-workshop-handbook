@@ -1,5 +1,8 @@
 # Welcome to Day 2!
 
+> [!IMPORTANT] Important!
+> You will each have been given your own API keys. Please do NOT abuse them otherwise they will be disabled - real keys do cost money. Keep max_tokens relatively low too. Thank you <3
+
 # Powering a Real Chat Website with AI — Workshop Activities
 
 Yesterday you built chatbots out of `if`/`elif` statements.
@@ -15,17 +18,26 @@ We build it in two stages:
 
 ## Table of Contents
 
-1. [Recap: Your Fake Chatbot](#1-recap-your-fake-chatbot)
-2. [Setup: Get the Tools](#2-setup-get-the-tools)
-3. [Your First Real AI Reply](#3-your-first-real-ai-reply)
-4. [Reading the Response](#4-reading-the-response)
-5. [Make It a Function](#5-make-it-a-function)
-6. [A Conversation Loop (Goldfish Edition)](#6-a-conversation-loop-goldfish-edition)
-7. [Give It Memory](#7-give-it-memory)
-8. [Meet the Website You're Powering](#8-meet-the-website-youre-powering)
-9. [Build the Server](#9-build-the-server)
-10. [Run It — Chat on Your Website](#10-run-it--chat-on-your-website)
-11. [Give Your Bot a Personality](#11-give-your-bot-a-personality)
+- [Welcome to Day 2!](#welcome-to-day-2)
+- [Powering a Real Chat Website with AI — Workshop Activities](#powering-a-real-chat-website-with-ai--workshop-activities)
+  - [Table of Contents](#table-of-contents)
+  - [1. Recap: Your Fake Chatbot](#1-recap-your-fake-chatbot)
+  - [2. Setup](#2-setup)
+  - [3. Your First Real AI Reply](#3-your-first-real-ai-reply)
+  - [4. Reading the Response](#4-reading-the-response)
+  - [5. Make It a Function](#5-make-it-a-function)
+  - [6. A Conversation Loop (Goldfish Edition)](#6-a-conversation-loop-goldfish-edition)
+  - [7. Give It Memory](#7-give-it-memory)
+    - [What's actually happening](#whats-actually-happening)
+  - [🚦 **Stage 1 complete.** You can talk to a real AI, and it remembers. Now let's connect it up to our website.](#-stage-1-complete-you-can-talk-to-a-real-ai-and-it-remembers-now-lets-connect-it-up-to-our-website)
+  - [8. Meet the Website You're Powering](#8-meet-the-website-youre-powering)
+    - [How the website will ask your Python for a reply](#how-the-website-will-ask-your-python-for-a-reply)
+  - [9. Meet Your Starter Server](#9-meet-your-starter-server)
+  - [10. Fill In the Function](#10-fill-in-the-function)
+  - [11. Connect the Function](#11-connect-the-function)
+  - [12. Give Your Server Memory](#12-give-your-server-memory)
+  - [13. Give Your Bot a Personality](#13-give-your-bot-a-personality)
+  - [14. Open ended tasks](#14-open-ended-tasks)
 
 ---
 
@@ -443,3 +455,7 @@ Save, refresh, and see how the bot now behaves.
 Play around with different personalities you can give the bot.
 
 ---
+
+## 14. Open ended tasks
+- You can refer to Claude's API key website: https://platform.claude.com/docs/en/api/overview
+- Play around with different hyperparameters
