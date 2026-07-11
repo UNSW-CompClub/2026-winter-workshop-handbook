@@ -1,11 +1,11 @@
 ## Open-Ended Tasks
 
-You've built a working chatbot. Now make it _yours_. None of this actiities are mandatory, but they should provide a solid challenge for those who have managed to get their bot up and working.
+You've built a working chatbot. Now make it _yours_. None of these activities are mandatory, but they should provide a solid challenge for those who have managed to get their bot up and working.
 
 > **How to read the difficulty markers**
-> 🟢 Easy · 🟡 Medium · Hard
+> 🟢 Easy · 🟡 Medium · 🔴 Hard
 >
-> Each task has a **Goal**, some **Hints**, and a **Done when…** line so you know when to stop tinkering and move on.
+> Each task has a **Goal**, some **Hints**, and a **Done when…** line so you know when to stop tinkering and move on. 
 
 ---
 
@@ -112,11 +112,16 @@ def trim_history():
 ## Extra Extension Ideas
 
 Note: some of these are fairly difficuly and may require editing our website itself. Please feel free to ask mentors for help with them if you feel stuck or unsure where to start.
+Another note: feel free to complete them in any order! However, some may be easier with previous tasks done first - ask mentors for guidance!
 
 - **🟢 Timestamps** on each message bubble in the UI.
 - **🟡 Personality switcher** — a dropdown or `/persona` command that swaps between several system prompts.
 - **🟡 Export the chat** — a button that downloads the conversation as a `.txt` or `.md` file.
 - **🟡 Loading indicator** — show a "chatbot is typing…" bubble while you wait for the reply.
-- **🔴 Multiple separate chats** — give each conversation an ID so one user can keep several concurrent conversations
-
+- **🟡 Edit Messages** - allow messages in your chat to be edited after they've been sent (no need to regenerate existing AI replies)
+- **🟡 Show Token Counts** - explore the Claude API and see which request parameters you can use to get data on how many tokens each message, and the whole conversation, is using. I wonder if we could see how much of our conversation context we've used too...
+- **🔴 Delete Messages** - allow messages to be deleted in your chat. Once a message has been deleted, everything after that message (user requests and AI responses) should also be deleted
+- **🔴 Multiple Separate Chats** — give each conversation an ID so one user can keep several concurrent conversations
+- **🔴 Group Conversations** - allow conversations to be grouped into folders
+- **🔴🔴🔴 Branching Chats (if you dare)** - duplicate an existing chat, up to a certain message.
 ---
