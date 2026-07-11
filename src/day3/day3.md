@@ -27,7 +27,8 @@ Right now your request only sends `model`, `max_tokens`, `system`, and `messages
 | `system`         | Sets the chatbots's role and personality | Rewrite it as a pirate, or even compclub mentor                        |
 | `stop_sequences` | Text that makes the chatbot stop early   | Give it `["\n\n"]` and see what happens                                |
 
-**Done when…** you can explain to a mentor in one sentence each, what `temperature`, `max_tokens`, and the `system` parameters do
+> [!SUCCESS] Done when...
+> You can explain to a mentor what `temperature`, `max_tokens`, and the `system` parameters do, in one sentence each
 
 ---
 
@@ -48,7 +49,8 @@ if user_message.strip() == "/clear":
 
 - Once `/clear` works, add more: `/help` (list commands), `/system <text>` (change the system prompt on the fly), `/undo` (remove the last exchange).
 
-**Done when…** typing `/clear` empties the history and the website reflects this functionality
+> [!SUCCESS] Done when...
+> Typing `/clear` empties the history, and the website reflects this functionality
 
 ---
 
@@ -82,7 +84,8 @@ conversation = load_history()
 - Call `save_history()` **after** you append the assistant's reply (and after `/clear`).
 - Handle the case when there is no file (first save)
 
-**Done when…** you can tell the bot to remember a specific word (for example pineapple), restart the server, and have the bot remember the word
+> [!SUCCESS] Done when...
+> You can tell the bot to remember a specific word (for example pineapple), restart the server, and have the bot remember the word
 
 ---
 
@@ -105,7 +108,8 @@ def trim_history():
         conversation.pop(0)
 ```
 
-**Done when…** a very long conversation is automatically trimmed.
+> [!SUCCESS] Done when...
+> A veeeeeerryyyyyy long conversation is automatically trimmed
 
 ---
 
@@ -141,4 +145,11 @@ If you need to install some Python packages, then you can use the below commands
 python3 -m venv .venv
 source .venv/bin/activate
 ```
+
+### Debugging Your Code
+
+- Step 1: Check if your code is indented properly!
+- Step 2: ask for help!
+    - Hint: try reading the error message to see what line in your code is causing the error
+
 ---
