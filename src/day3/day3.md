@@ -111,8 +111,11 @@ def trim_history():
 
 ## Extra Extension Ideas
 
-Note: some of these are fairly difficuly and may require editing our website itself. Please feel free to ask mentors for help with them if you feel stuck or unsure where to start.
-Another note: feel free to complete them in any order! However, some may be easier with previous tasks done first - ask mentors for guidance!
+> [!NOTE] Note
+> Some of these are fairly difficuly and may require editing our website itself. Please feel free to ask mentors for help with them if you feel stuck or unsure where to start.
+
+> [!NOTE] Another Note!
+> Feel free to complete them in any order! However, some may be easier with previous tasks done first - ask mentors for guidance!
 
 - **🟢 Timestamps** on each message bubble in the UI.
 - **🟡 Personality switcher** — a dropdown or `/persona` command that swaps between several system prompts.
@@ -124,4 +127,18 @@ Another note: feel free to complete them in any order! However, some may be easi
 - **🔴 Multiple Separate Chats** — give each conversation an ID so one user can keep several concurrent conversations
 - **🔴 Group Conversations** - allow conversations to be grouped into folders
 - **🔴🔴🔴 Branching Chats (if you dare)** - duplicate an existing chat, up to a certain message.
+---
+
+## Appendix
+
+### Installing Python Packages
+
+If you need to install some Python packages, then you can use the below commands to get that sorted.
+> [!WARNING] Warning!!
+> Before you install ANYTHING, get a mentor to take a look at the package
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
 ---
