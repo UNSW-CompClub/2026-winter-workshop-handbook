@@ -120,6 +120,13 @@ def trim_history():
 
 > [!NOTE] Another Note!
 > Feel free to complete them in any order! However, some may be easier with previous tasks done first - ask mentors for guidance!
+Note: some of these are fairly difficuly and may require editing our website itself. Please feel free to ask mentors for help with them if you feel stuck or unsure where to start.
+
+Our slides on HTML & CSS: [slides link](https://docs.google.com/presentation/d/1cv2NICfhln9tCqrtoX2xc99DpvEw4a-ZpKdcE2WuY6s/edit?usp=sharing)
+
+HTML: [https://www.w3schools.com/html/](https://www.w3schools.com/html/)
+
+CSS: [https://www.w3schools.com/Css/](https://www.w3schools.com/Css/)
 
 - **🟢 Timestamps** on each message bubble in the UI.
 - **🟡 Personality switcher** — a dropdown or `/persona` command that swaps between several system prompts.

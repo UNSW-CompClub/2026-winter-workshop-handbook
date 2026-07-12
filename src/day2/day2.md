@@ -463,7 +463,7 @@ You've built a working chatbot. Now make it _yours_. None of this actiities are 
 > **How to read the difficulty markers**
 > 🟢 Easy · 🟡 Medium · Hard
 >
-> Each task has a **Goal**, some **Hints**, and a **Done when…** line so you know when to stop tinkering and move on.
+> Each task has a **Goal**, some **Hints**, and a **Done when…** 
 
 ---
 
