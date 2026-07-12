@@ -25,7 +25,7 @@ Our slides on HTML & CSS: [slides link](https://docs.google.com/presentation/d/1
 
 HTML: [https://www.w3schools.com/html/](https://www.w3schools.com/html/)
 
-CSS: [https://www.w3schools.com/Css/](https://www.w3schools.com/Css/)
+CSS: [https://www.w3schools.com/Css/](https://www.w3schools.com/css/)
 
 ---
 
