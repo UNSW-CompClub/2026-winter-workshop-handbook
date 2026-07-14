@@ -33,7 +33,7 @@ Once you've acquired your token, all you have to do is go into the `.env` file i
 API_KEY = "your-token-goes-heres"
 ```
 
-Then, test your code and make sure it's all good! You shuold now be able to use your chatbot as you did during the workshop, and keep playing around with it!
+Then, test your code and make sure it's all good! You should now be able to use your chatbot as you did during the workshop, and keep playing around with it!
 
 > [!WARNING] Parental Consent
 > Make sure to get your parent's approval before buying ANY tokens!
