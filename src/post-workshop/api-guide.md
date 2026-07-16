@@ -4,6 +4,10 @@ Hey guys, we're so glad you were able to come to the workshop! It was awesome to
 
 Now that you've got your code from the workshop, you'll have to create and set up your own Claude API key to keep using it!
 
+> [!WARNING] Claude's Terms of Use regarding age
+> Anthropic's [Terms of Use](https://support.claude.com/en/articles/13117299-minimum-age-requirement-access-restriction) only allows users over the age of 18 to use their platform, REGARDLESS of parental approval.
+> If you are under 18, **do not create a Claude account or API key**.
+
 ---
 
 ## What's an API key?
